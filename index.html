@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro" class="nav-link">Intro</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Intro Section -->
+    <section id="intro" class="center">
+        <h1>Hi, I'm Teresia Kamau</h1>
+
+        <!-- Profile Container: Wraps the image and paragraph for better alignment -->
+        <div class="profile-container">
+            <!-- Profile Image -->
+            <img src="images/portfolio pic.jpg" alt="Teresia Kamau" class="rounded-image">
+            <p>An outstanding Software Engineering and Chemical Engineering student with a passion for web development and innovative solutions. I'm driven by a strong desire to leverage technology, especially in web and app development, to address challenges such as waste management. My journey is all about using digital tools to make a real-world impact.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        <p>Hi, I'm Teresia Kamau, a passionate student of Software Engineering and Chemical Engineering. I believe in the power of technology, particularly in web and app development, to create innovative solutions for the waste management industry. Growing up, I was deeply troubled by the sight of piles of garbage on the streets and outside homes, and this has fueled my desire to use technology to address these challenges.</p>
+        <p>Technology has the potential to bring real-time tracking and data simulation to waste management processes, something that traditional methods have struggled to solve. I aspire to use my skills to contribute to cleaner and more sustainable environments by integrating technology to optimize waste collection, recycling, and disposal processes.</p>
+        <p>Currently, I am studying Software Engineering, which equips me with the skills to build digital solutions that can transform industries like waste management.</p>
+
+        <!-- Add CV Section Here -->
+        <h3>Download or View My CV</h3>
+        <!-- Button to download the CV -->
+        <a href="cv/TERRY'S CURRICULUM VITAE.pdf" download="Teresia_Kamau_CV.pdf">
+            <button>Download CV</button>
+        </a>
+        
+        <!-- Button to open the CV in a new tab -->
+        <a href="cv/TERRY'S CURRICULUM VITAE.pdf" target="_blank">
+            <button>Open CV</button>
+        </a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="hidden">
+        <h2>Skills</h2>
+        <div class="skills-images">
+            <img src="images/git and github.png" alt="Git and GitHub" class="skill-img">
+            <img src="images/js image.png" alt="JavaScript" class="skill-img">
+            <img src="images/web image.png" alt="Web Development" class="skill-img">
+            <img src="images/python image.jpg" alt="Python" class="skill-img">
+            <img src="images/css image.png" alt="CSS" class="skill-img">
+            <img src="images/html.png" alt="HTML" class="skill-img">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hidden">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Waste Management Web App</h3>
+            <p>A web application designed to track waste collection in real-time and optimize collection routes based on data. Built using HTML, CSS, JavaScript, and Python for the backend.</p>
+            <a href="https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-html-5-terry-kamau" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Waste management initiative</h3>
+            <p>A website designed to create awareness on the issues of land pollution and means to reduce the pollution creating a sustainable environment.</p>
+            <a href="https://github.com/PLP-WebTechnologies/feb-2025-advanced-html-terry-kamau/commit/3354cc9c7a8a51677ba9c2d8ecf4ef3c8cb355ad" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2>
+        <p>Feel free to leave a message.:</p>
+
+        <!-- Contact Form -->
+        <form id="contact-form" method="post" action="https://formspree.io/f/xeoalpge">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Or reach out directly:</p>
+        <p>Feel free to reach out to me directly via email or phone. I look forward to connecting with you!</p>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:teresiakamau103@gmail.com">teresiakamau103@gmail.com</a></p>
+            <p><strong>Phone:</strong> +254799435366</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/teresia-kamau-86263a245" target="_blank">linkedin.com/in/teresia-kamau-86263a245</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/terry-kamau" target="_blank">github.com/terry-kamau</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Teresia Kamau. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
